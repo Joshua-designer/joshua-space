@@ -1,0 +1,10 @@
+html {
+  /* 기본 글자 높이는 14px */
+  font-size: 14px;
+  font-family: DM Sans;
+}
+
+
+.main-title {
+  font-size: 32px;
+}
