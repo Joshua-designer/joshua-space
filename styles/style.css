@@ -38,14 +38,6 @@ body {
   }
 }
 
-/* font-dm-sans */
-.dm-sans {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* font-style */
 .main-title {
   text-align: center;
