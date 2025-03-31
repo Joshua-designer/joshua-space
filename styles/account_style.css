@@ -6,21 +6,37 @@ html {
   color: #282828;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 560px;
+  padding: 16px;
+  gap: 24px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 16px;
+  gap: 8px;
+}
+
 /* font-style */
-.main-title {
+.title-text {
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   margin: 0px auto;
-  padding-bottom: 24px;
 }
-.body-text {
+.description-text {
   text-align: center;
+  font-size: 16px;
   font-weight: 400;
   margin: 0px auto;
-  padding: 24px 0px;
 }
-.subtitle {
+.subtitle-text {
   text-align: center;
   font-size: 16px;
   font-weight: 700;

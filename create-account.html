@@ -13,40 +13,44 @@
   </head>
   
   <body>
-    <div>
-      <h1>Create Your Apple Account</h1>
-      <p>One Apple Account is all you need to access all Apple services.</p>
-    </div>
-    
-    <div>
-      <input type="text" name="First_name" placeholder="First name" />
-      <input type="text" name="Last_namae" placeholder="Last name" />
-    </div>
+    <div class="flex-container">
+      <div class="header">
+        <h1 class="title-text">Create Your Apple Account</h1>
+        <p class="description-text">One Apple Account is all you need to access all Apple services.</p>
+      </div>
+      
+      <form>
+        <div>
+          <input type="text" name="First_name" placeholder="First name" />
+          <input type="text" name="Last_namae" placeholder="Last name" />
+        </div>
 
-    <div>
-      <p>COUNTRY / REGION</p>
-      <select name="country">
-        <option>United States</option>
-        <option>South Korea</option>
-      </select>
-      <input type="date" name="birthday" placeholder="Birthday YYYY/MM/DD" />
-    </div>
+        <div>
+          <p>COUNTRY / REGION</p>
+          <select name="country">
+            <option>United States</option>
+            <option>South Korea</option>
+          </select>
+          <input type="date" name="birthday" placeholder="Birthday YYYY/MM/DD" />
+        </div>
 
-    <hr />
+        <hr />
 
-    <div>
-      <input type="email" name="useremail" placeholder="name@example.com" />
-      <input type="password" name="pwd" placeholder="Password" />
-      <input type="password" name="pwd_confirm" placeholder="Confirm password" />
-    </div>
+        <div>
+          <input type="email" name="useremail" placeholder="name@example.com" />
+          <input type="password" name="pwd" placeholder="Password" />
+          <input type="password" name="pwd_confirm" placeholder="Confirm password" />
+        </div>
 
-    <div>
-      <input type="checkbox" name="tos" value="agree" /> <p>I agree to the <a>terms and conditions</a></p>
-    </div>
+        <div>
+          <input type="checkbox" name="tos" value="agree" /> <p>I agree to the <a>terms and conditions</a></p>
+        </div>
 
-    <div>
-      <button>Create Account</button>
-      <button>Not Now</button>
+        <div>
+          <input type="submit" value="Create Account" />
+          <button>Not Now</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
