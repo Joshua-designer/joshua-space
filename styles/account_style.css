@@ -1,0 +1,89 @@
+html {
+  background-color: white;
+  /* 기본 글자 높이는 14px */
+  font-size: 14px;
+  font-family: "Inter";
+  color: #282828;
+}
+
+/* font-style */
+.main-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0px auto;
+  padding-bottom: 24px;
+}
+.body-text {
+  text-align: center;
+  font-weight: 400;
+  margin: 0px auto;
+  padding: 24px 0px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px auto;
+}
+
+/* link-button */
+a {
+  color: #007AFF;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  color: skyblue;
+}
+a:hover {
+  color: skyblue;
+}
+a:active {
+  color: blue;
+}
+
+/* buttons */
+.primary-btn {
+  padding: 0px 24px;
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background-color: #007AFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+.secondary-btn {
+  padding: 0px 24px;
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+  color: #007AFF;
+  background-color: #D0E7FF;
+  font-size: 18px;
+  font-weight: 500;
+}
+.tertiary-btn {
+  padding: 0px 24px;
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+  color: #007AFF;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.button-group {
+  padding: 24px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
