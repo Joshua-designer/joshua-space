@@ -33,6 +33,13 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
 .logo {
   display: flex;
@@ -45,12 +52,12 @@ input::placeholder {
 }
 .nav-links {
   display: flex;
-  gap: 16px;
+  gap: 8px;
 }
 .nav-links a {
   height: 48px;
   display: flex;
-  padding: 0 8px;
+  padding: 0 16px;
   align-items: center;
   border-radius: 4px;
   color: #282828;
@@ -61,11 +68,13 @@ input::placeholder {
   text-decoration: none;
 }
 .nav-links a:hover {
-  color: #007AFF;
+  color: #282828;
+  background-color: #EEF6FF;
   text-decoration: none;
 }
 .nav-links a:active {
-  color: #007AFF;
+  color: #282828;
+  background-color: #DBE2EA;
   text-decoration: none;
 }
 
@@ -77,10 +86,10 @@ input::placeholder {
   max-width: 560px;
   position: relative;
   margin: 0 auto;
-  padding: 16px;
+  padding: 104px 16px 80px;
   gap: 24px;
 }
-.header {
+.main-title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
