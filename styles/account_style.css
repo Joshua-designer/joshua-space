@@ -25,6 +25,14 @@ input::placeholder {
   color: #9a9a9a;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
 /* top navigation bar */
 .nav-container {
   max-width: 1200px;
@@ -33,13 +41,6 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  z-index: 1000;
 }
 .logo {
   display: flex;
