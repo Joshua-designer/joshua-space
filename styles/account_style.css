@@ -39,6 +39,7 @@ header {
   margin: 0 auto;
   padding: 8px 24px;
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
 }
@@ -54,11 +55,13 @@ header {
 }
 .nav-links {
   display: flex;
+  /* flex: 0 0 1; */
   gap: 8px;
 }
 .nav-links a {
   height: 48px;
   display: flex;
+  /* flex: 0 0 1; */
   padding: 0 16px;
   align-items: center;
   border-radius: 4px;
