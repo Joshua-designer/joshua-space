@@ -142,6 +142,9 @@ header {
     이때 flex item의 너비를 100%로 설정해준다면 항상 부모 너비 만큼 따라가게 되어 옆으로 늘어나게 됩니다.
     width가 아닌 flex 스타일만으로 설정하고 싶다면 flex container에서 align-items: stretch;를 주시면 됩니다.
   */
+  appearance: none;            
+  -webkit-appearance: none;    
+  -moz-appearance: none;       
   width: 100%;
   min-width: 140px;
   padding: 12px 16px;
