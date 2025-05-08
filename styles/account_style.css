@@ -165,6 +165,7 @@ header {
   flex: 1 1 40%;
   border-radius: 4px;
   border: 1px solid #d7d9dd;
+  cursor: pointer;
 }
 .select-wrapper::after {
   content: "";
