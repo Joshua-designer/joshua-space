@@ -69,9 +69,17 @@
 
         <div class="button-group">
           <input class="primary-btn" type="submit" value="Create Account" />
-          <button class="secondary-btn">Not Now</button>
+          <button class="secondary-btn" id="cancel_button">Not Now</button>
         </div>
       </form>
     </div>
+
+    <script>
+      var cancelButtonElement = document.getElementById('cancel_button');
+      // console.log(cancelButtonElement) 콘솔 확인용
+      cancelButtonElement.addEventListener('click', function() {
+        alert('Hello my world');
+      })
+    </script>
   </body>
 </html>
