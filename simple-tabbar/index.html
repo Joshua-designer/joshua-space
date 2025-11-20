@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Tab Bar Exercise</title>
+
+  <!-- CSS(style.css)연결 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 탭바 영역: text / card 탭 버튼 -->
+  <div class="tab-bar">
+    <button class="tab active" data-tab="text">Text List</button>
+    <button class="tab" data-tab="card">Card List</button>
+  </div>
+
+  <!-- 탭별 콘텐츠 영역 -->
+  <div class="tab-panels">
+    <div class="tab-panel active" data-tab="text">
+      text 탭의 내용입니다.
+    </div>
+    <div class="tab-panel" data-tab="card">
+      card 탭의 내용입니다.
+    </div>
+  </div>
+
+  <!-- JS 파일(script.js) 연결 -->
+  <script src="script.js"></script>
+</body>
+</html>

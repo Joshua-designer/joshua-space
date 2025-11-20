@@ -1,0 +1,68 @@
+/* 공통 기본값 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Google Sans Flex", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 400;
+  font-style: normal;
+  padding: 40px;
+}
+
+/* 탭바 컨테이너 */
+.tab-bar {
+  display: inline-flex;
+  border-radius: 999px;
+  background: #f1f3f5;
+  padding: 4px;
+  gap: 4px;
+}
+
+/* 탭 버튼 기본 상태 */
+.tab {
+  border: none;
+  background: transparent;
+  padding: 8px 24px;
+  border-radius: 999px;
+  font-family: "Google Sans Flex", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  color: #868e96;
+  transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* 호버 상태 */
+.tab:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 선택된 탭 상태 */
+.tab.active {
+  background: #ffffff;
+  font-weight: 700;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  color: #212529;
+}
+
+/* 탭 콘텐츠 영역 전체 */
+.tab-panels {
+  margin-top: 16px;
+}
+
+/* 각 탭 패널 기본 상태: 숨김 */
+.tab-panel {
+  display: none;
+  padding: 16px 0;
+  font-size: 16px;
+  color: #343a40;
+  line-height: 1.5;
+}
+
+/* 선택된 패널 */
+.tab-panel.active {
+  display: block;
+}
