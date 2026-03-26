@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "TalkToFigma": {
+      "command": "/Users/joshuaju/.bun/bin/bun",
+      "args": [
+        "/Users/joshuaju/workspace/cursor-talk-to-figma-mcp-main/dist/server.js"
+      ]
+    }
+  }
+}
