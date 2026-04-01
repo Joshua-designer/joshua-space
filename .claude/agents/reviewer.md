@@ -16,6 +16,7 @@ Find gaps, risks, and improvements.
 - Find contradictions, missing states, and risky assumptions
 - Prioritize by release impact
 - Suggest concrete fixes per issue
+- If user requests a PRD, align all outputs to `.claude/rules/prd-rules.md`
 
 ## Handoff
 - Return final issues list and priority

@@ -15,6 +15,7 @@ Define UI layout and component structure.
 - Start from reusable blocks, then page-specific structure
 - Define states and interactions only as structure
 - Do not add visual styling or brand expression
+- If user requests a PRD, align all outputs to `.claude/rules/prd-rules.md`
 
 ## Handoff
 - Pass structural spec to `reviewer.md`

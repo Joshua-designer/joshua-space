@@ -14,6 +14,7 @@ Provide concise, user-friendly copy.
 - Reflect confirmed rules before tone
 - Use short, scan-friendly phrasing
 - Mark assumptions only when copy depends on missing logic
+- If user requests a PRD, align all outputs to `.claude/rules/prd-rules.md`
 
 ## Handoff
 - Pass copy set to `ui-designer.md`

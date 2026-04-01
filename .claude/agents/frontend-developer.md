@@ -16,6 +16,7 @@ Translate approved UI structure into implementation-ready frontend guidance.
 - Define props, data needs, and state ownership
 - Identify implementation constraints and technical tradeoffs
 - Keep guidance framework-agnostic unless the project context requires specifics
+- If user requests a PRD, align all outputs to `.claude/rules/prd-rules.md`
 
 ## Handoff
 - Pass implementation risks and feasibility notes to `reviewer.md`

@@ -13,6 +13,7 @@ Validate problem and suggest insights.
 - Surface only decision-relevant insights
 - Keep uncertainty tagged as `[Hypothesis]`
 - Prefer quick validation methods over full research plans
+- If user requests a PRD, align all outputs to `.claude/rules/prd-rules.md`
 
 ## Handoff
 - Pass clarified risks and user insight signals to `ux-writer.md`
