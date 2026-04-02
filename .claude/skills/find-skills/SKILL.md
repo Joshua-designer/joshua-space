@@ -12,12 +12,17 @@ description: Project bridge for the globally installed `find-skills` capability.
 
 ## Source
 
-- Global install: `/Users/joshuaju/.codex/skills/find-skills/`
+- Installed global skill: `~/.agents/skills/find-skills/`
+- Install command: `npx skills add https://github.com/vercel-labs/skills --skill find-skills`
+- Browse skills at: `https://skills.sh/`
 
 ## Use
 
 - Use when the current task may require a missing skill or specialized workflow
 - Prefer this before inventing new role behavior
+- Search or browse for relevant skills first, then recommend the best option to the user
+- Prioritize skills with higher install counts and stronger popularity on `https://skills.sh/`
+- Install a new skill only after the user explicitly approves the installation
 
 ## Notes
 
